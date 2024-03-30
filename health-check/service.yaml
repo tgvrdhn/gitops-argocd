@@ -9,4 +9,4 @@ spec:
     targetPort: 80
   selector:
     app: random-shapes
-  type: NodePort
+  type: LoadBalancer
